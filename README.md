@@ -24,6 +24,7 @@ Network Configurator je orodje za sisteme Windows, ki omogoča enostavno upravlj
 1. Prenesite najnovejšo verzijo iz [Releases](https://github.com/erikklavora/NetworkConfigurator/releases)
 2. Zaženite `NetworkConfigurator.exe`
 3. Ob zagonu bo program zahteval administratorske pravice
+4. Konfiguracija se shrani tu: C:\Users\**USER**\AppData\Local\NetworkConfigurator
 
 ## Uporaba
 
