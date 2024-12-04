@@ -23,18 +23,18 @@ class NetworkConfigurator(tk.Tk):
         super().__init__()
         
         # Konstante
-        self.VERSION = "1.0"
+        self.VERSION = "1.0.1"
         self.COMPANY = "© 2024 ERKL Erik Klavora s.p."
         
         self.title(f"Konfigurator mrežne kartice v{self.VERSION}")
-        self.geometry("600x650")  # Povečana višina za nogo
+        self.geometry("400x550")  # Povečana višina za nogo
         
         # Centriranje okna
         screen_width = self.winfo_screenwidth()
         screen_height = self.winfo_screenheight()
-        x = (screen_width - 600) // 2
-        y = (screen_height - 650) // 2
-        self.geometry(f"600x650+{x}+{y}")
+        x = (screen_width - 400) // 2
+        y = (screen_height - 570) // 2
+        self.geometry(f"400x570+{x}+{y}")
         
         # Nastavi ikono, če obstaja
         try:
